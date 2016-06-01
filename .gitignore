@@ -1,6 +1,20 @@
-composer.phar
-/vendor/
+/Build/Behat/*
+/Build/PhpCodesniffer/*
+/Build/BuildEssentials
+/Build/Reports
+/Build/Resources
+/Configuration/
+/Data/
+/Packages/
+/Web/
+/bin/
+/Readme.txt
+/Upgrading.txt
+/flow
+/flow.bat
 
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
+# ignore the downloaded selenium server, config and the selenium
+# temporary directory (which starts with a quote, do not ask why...)
+/Tests/Selenium/settings.xml
+Build/Resources/Java/selenium-server-standalone*
+/"
