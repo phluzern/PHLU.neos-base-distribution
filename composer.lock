@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "00650b426a919cd85e3f859ad00f1ecc",
-    "content-hash": "30fa8fd6e6b11db14b56136178e052d4",
+    "hash": "a4a6742e0d028a4578c61198edb6d805",
+    "content-hash": "29eacb939001286ae6419179f4c16799",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -923,6 +923,39 @@
             "time": "2016-02-17 07:47:07"
         },
         {
+            "name": "neos/demo",
+            "version": "2.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neos/Neos.Demo.git",
+                "reference": "02dd5d0336a5d1f0dedbb0cca8a8bfbedb97b23b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neos/Neos.Demo/zipball/02dd5d0336a5d1f0dedbb0cca8a8bfbedb97b23b",
+                "reference": "02dd5d0336a5d1f0dedbb0cca8a8bfbedb97b23b",
+                "shasum": ""
+            },
+            "require": {
+                "flowpack/neos-frontendlogin": "~2.1",
+                "typo3/neos": "~2.2",
+                "typo3/neos-nodetypes": "~2.2",
+                "typo3/neos-seo": "~1.0"
+            },
+            "type": "typo3-flow-site",
+            "autoload": {
+                "psr-0": {
+                    "Neos\\Demo": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "Site package for the Neos Demo Site",
+            "time": "2016-05-11 13:00:48"
+        },
+        {
             "name": "neos/diff",
             "version": "2.2.4",
             "source": {
@@ -1453,7 +1486,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/miegli/Neoslive.Nodeform.git",
-                "reference": "a1169a608a5ee5bff9e3b3ac72ec0f369b8c64c3"
+                "reference": "b9c96375ec87cc163735689acd697afb4b6ca2c7"
             },
             "require": {
                 "typo3/flow": "*",
@@ -1497,7 +1530,7 @@
                 }
             },
             "description": "Add description here",
-            "time": "2016-06-01 13:39:29"
+            "time": "2016-06-05 09:02:15"
         },
         {
             "name": "ocramius/proxy-manager",
@@ -1616,7 +1649,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phluzern/PHLU.Corporate.git",
-                "reference": "f8d5985390ae77fe930c1361af67631de3383235"
+                "reference": "fb125f9dfd4eaeff59973c678cabb9487647683f"
             },
             "require": {
                 "typo3/neos": "*",
@@ -1637,7 +1670,7 @@
                 }
             },
             "description": "Add description here",
-            "time": "2016-06-01 13:52:17"
+            "time": "2016-06-06 08:52:25"
         },
         {
             "name": "phlu/docs",
@@ -1645,7 +1678,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phluzern/PHLU.Docs.git",
-                "reference": "d9a9662da579a827a249e9b9c91df90043772cd0"
+                "reference": "24a479dd80781e9e3bf11f2c9206dc673f45862f"
             },
             "require": {
                 "typo3/neos": "*",
@@ -1666,7 +1699,7 @@
                 }
             },
             "description": "Add description here",
-            "time": "2016-06-01 14:00:49"
+            "time": "2016-06-02 10:01:57"
         },
         {
             "name": "phlu/neos-nodetypes",
@@ -1674,7 +1707,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phluzern/PHLU.Neos.NodeTypes.git",
-                "reference": "407412c77420221115dba5880008d6a82facd3da"
+                "reference": "7a845222adc1224516ea5efb41d1031f50528ec6"
             },
             "require": {
                 "typo3/flow": "*"
@@ -1691,7 +1724,7 @@
                 }
             },
             "description": "Add description here",
-            "time": "2016-06-01 13:57:16"
+            "time": "2016-06-02 09:32:52"
         },
         {
             "name": "ramsey/uuid",
