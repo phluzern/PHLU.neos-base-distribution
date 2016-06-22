@@ -50,7 +50,8 @@
         "phlu/neos-nodetypes": "dev-master",
         "phlu/docs": "dev-master",
         "neoslive/nodeform": "dev-master",
-        "phlu/sites-content": "dev-master"
+        "phlu/sites-content": "dev-master",
+        "flownative/aws-s3": "1.*"
     },
     "require-dev": {
         "typo3/buildessentials": "3.2.x-dev",
