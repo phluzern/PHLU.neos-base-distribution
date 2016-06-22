@@ -27,6 +27,10 @@
         {
             "type": "git",
             "url": "https://github.com/miegli/Neoslive.Nodeform.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/PHLU.Sites.Content.git"
         }
     ],
     "config": {
@@ -45,7 +49,8 @@
         "phlu/corporate": "dev-master",
         "phlu/neos-nodetypes": "dev-master",
         "phlu/docs": "dev-master",
-        "neoslive/nodeform": "dev-master"
+        "neoslive/nodeform": "dev-master",
+        "phlu/sites-content": "dev-master"
     },
     "require-dev": {
         "typo3/buildessentials": "3.2.x-dev",
