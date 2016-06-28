@@ -64,7 +64,7 @@
     "neoslive/nodeform": "dev-master",
     "phlu/sites-content": "dev-master",
     "phlu/evento": "dev-master",
-    "phlu/phlu/neos-models": "dev-master",
+    "phlu/neos-models": "dev-master",
     "phlu/interfaces": "dev-master",
     "flownative/aws-s3": "1.*"
   },
