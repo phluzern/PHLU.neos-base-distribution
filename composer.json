@@ -30,11 +30,11 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Neos.Models"
+      "url": "https://github.com/phluzern/PHLU.Neos.Models.git"
     },
     {
       "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Interfaces"
+      "url": "https://github.com/phluzern/PHLU.Interfaces.git"
     },
     {
       "type": "git",
@@ -42,7 +42,7 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Evento"
+      "url": "https://github.com/phluzern/PHLU.Evento.git"
     }
   ],
   "config": {
@@ -82,7 +82,7 @@
     "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
   },
   "scripts": {
-    "post-update-cmd": ["TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall","FLOW_CONTEXT=Production ./flow flow:cache:flush","FLOW_CONTEXT=Development ./flow flow:cache:flush"],
+    "post-update-cmd": ["TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall","FLOW_CONTEXT=Development ./flow flow:cache:flush"],
     "post-install-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
     "post-package-update": "TYPO3\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
     "post-package-install": "TYPO3\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
