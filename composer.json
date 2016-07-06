@@ -52,7 +52,6 @@
     "neos/redirecthandler-databasestorage": "~1.0",
     "phlu/corporate": "dev-master",
     "phlu/neos-nodetypes": "dev-master",
-    "phlu/docs": "dev-master",
     "phlu/sites-content": "dev-master",
     "phlu/evento": "dev-master",
     "phlu/neos-models": "dev-master",
