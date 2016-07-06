@@ -26,19 +26,11 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/miegli/Neoslive.Nodeform.git"
-    },
-    {
-      "type": "git",
       "url": "https://github.com/phluzern/PHLU.Neos.Models.git"
     },
     {
       "type": "git",
       "url": "https://github.com/phluzern/PHLU.Interfaces.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/miegli/Neoslive.Nodeform.git"
     },
     {
       "type": "git",
@@ -61,7 +53,6 @@
     "phlu/corporate": "dev-master",
     "phlu/neos-nodetypes": "dev-master",
     "phlu/docs": "dev-master",
-    "neoslive/nodeform": "dev-master",
     "phlu/sites-content": "dev-master",
     "phlu/evento": "dev-master",
     "phlu/neos-models": "dev-master",
