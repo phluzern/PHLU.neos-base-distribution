@@ -26,6 +26,10 @@
     },
     {
       "type": "git",
+      "url": "https://github.com/phluzern/PHLU.Qmpilot.git"
+    },
+    {
+      "type": "git",
       "url": "https://github.com/phluzern/PHLU.Neos.Models.git"
     },
     {
@@ -54,6 +58,7 @@
     "phlu/neos-nodetypes": "dev-master",
     "phlu/sites-content": "dev-master",
     "phlu/evento": "dev-master",
+    "phlu/qmpilot": "dev-master",
     "phlu/neos-models": "dev-master",
     "phlu/interfaces": "dev-master",
     "flownative/aws-s3": "1.*"
