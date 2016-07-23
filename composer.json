@@ -43,6 +43,10 @@
     {
       "type": "git",
       "url": "https://github.com/phluzern/PHLU.Ppdb.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/phluzern/PHLU.Sites.Content.git"
     }
   ],
   "config": {
