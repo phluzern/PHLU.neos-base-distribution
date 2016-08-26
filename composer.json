@@ -47,6 +47,10 @@
     {
       "type": "git",
       "url": "https://github.com/phluzern/PHLU.Sites.Content.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/phluzern/PHLU.Search.git"
     }
   ],
   "config": {
@@ -70,6 +74,7 @@
     "phlu/neos-models": "dev-master",
     "phlu/interfaces": "dev-master",
     "phlu/ppdb": "dev-master",
+    "phlu/search": "dev-master",
     "flownative/aws-s3": "1.*"
   },
   "require-dev": {
