@@ -50,7 +50,7 @@
     },
     {
       "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Search.git"
+      "url": "https://github.com/miegli/Neoslive.Hybridsearch.git"
     }
   ],
   "config": {
@@ -58,9 +58,9 @@
     "bin-dir": "bin"
   },
   "require": {
-    "typo3/neos": "2.2.*",
-    "typo3/neos-nodetypes": "2.2.*",
-    "typo3/neos-kickstarter": "2.2.*",
+    "typo3/neos": "2.3.*",
+    "typo3/neos-nodetypes": "*",
+    "typo3/neos-kickstarter": "*",
     "typo3/neos-seo": "~1.0",
     "typo3/setup": "~2.0",
     "flowpack/neos-frontendlogin": "~2.0",
@@ -74,8 +74,9 @@
     "phlu/neos-models": "dev-master",
     "phlu/interfaces": "dev-master",
     "phlu/ppdb": "dev-master",
-    "phlu/search": "dev-master",
-    "flownative/aws-s3": "1.*"
+    "neoslive/hybridsearch": "dev-master",
+    "flownative/aws-s3": "1.*",
+    "ktamas77/firebase-php": "^2.2"
   },
   "require-dev": {
     "typo3/buildessentials": "3.2.x-dev",
