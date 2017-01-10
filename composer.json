@@ -51,6 +51,10 @@
     {
       "type": "git",
       "url": "https://github.com/miegli/Neoslive.Hybridsearch.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/miegli/Neoslive.Nodeform2.git"
     }
   ],
   "config": {
@@ -75,6 +79,7 @@
     "phlu/interfaces": "dev-master",
     "phlu/ppdb": "dev-master",
     "neoslive/hybridsearch": "dev-master",
+    "neoslive/nodeform": "dev-master",
     "flownative/aws-s3": "1.*",
     "ktamas77/firebase-php": "^2.2",
     "google/apiclient": "^2.0"
