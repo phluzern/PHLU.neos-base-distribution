@@ -75,7 +75,6 @@
     "phlu/interfaces": "dev-master",
     "phlu/ppdb": "dev-master",
     "neoslive/hybridsearch": "dev-master",
-    "neoslive/nodeform": "dev-master",
     "flownative/aws-s3": "1.*",
     "ktamas77/firebase-php": "^2.2",
     "google/apiclient": "^2.0"
