@@ -1,101 +1,104 @@
 {
-  "name": "neos/neos-base-distribution",
-  "description": "Neos Base Distribution",
-  "license": "GPL-3.0+",
-  "support": {
-    "email": "hello@neos.io",
-    "slack": "http://slack.neos.io/",
-    "forum": "https://discuss.neos.io/",
-    "wiki": "https://discuss.neos.io/c/the-neos-project/project-documentation",
-    "issues": "https://jira.neos.io/browse/NEOS",
-    "docs": "http://neos.readthedocs.org/",
-    "source": "https://github.com/neos/neos-base-distribution"
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Docs.git"
+    "name": "neos/neos-base-distribution",
+    "description": "Neos Base Distribution",
+    "license": "GPL-3.0+",
+    "support": {
+        "email": "hello@neos.io",
+        "slack": "http://slack.neos.io/",
+        "forum": "https://discuss.neos.io/",
+        "wiki": "https://discuss.neos.io/c/the-neos-project/project-documentation",
+        "issues": "https://jira.neos.io/browse/NEOS",
+        "docs": "http://neos.readthedocs.org/",
+        "source": "https://github.com/neos/neos-base-distribution"
     },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Neos.NodeTypes.git"
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Docs.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Neos.NodeTypes.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Corporate.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Qmpilot.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Neos.Models.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Interfaces.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Evento.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Ppdb.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Sites.Content.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/miegli/Neoslive.Hybridsearch.git"
+        }
+    ],
+    "config": {
+        "vendor-dir": "Packages/Libraries",
+        "bin-dir": "bin"
     },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Corporate.git"
+    "require": {
+        "neos/neos": "~3.0.0",
+        "neos/nodetypes": "~3.0.0",
+        "neos/site-kickstarter": "~3.0.0",
+        "neos/seo": "dev-master",
+        "neos/setup": "dev-master",
+        "flowpack/neos-frontendlogin": "dev-master",
+        "neos/redirecthandler-neosadapter": "dev-master",
+        "neos/redirecthandler-databasestorage": "dev-master",
+        "phlu/corporate": "dev-master",
+        "phlu/neos-nodetypes": "dev-master",
+        "phlu/sites-content": "dev-master",
+        "phlu/evento": "dev-master",
+        "phlu/qmpilot": "dev-master",
+        "phlu/neos-models": "dev-master",
+        "phlu/interfaces": "dev-master",
+        "phlu/ppdb": "dev-master",
+        "neoslive/hybridsearch": "dev-master",
+        "flownative/aws-s3": "dev-master",
+        "ktamas77/firebase-php": "dev-master",
+        "google/apiclient": "dev-master"
     },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Qmpilot.git"
+    "require-dev": {
+        "neos/buildessentials": "~4.0.0",
+        "mikey179/vfsstream": "~1.6",
+        "phpunit/phpunit": "~4.8 || ~5.2.0",
+        "symfony/css-selector": "~2.0",
+        "neos/behat": "~3.0.0"
     },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Neos.Models.git"
+    "replace": {
+        "typo3/neos-base-distribution": "self.version"
     },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Interfaces.git"
+    "suggest": {
+        "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
     },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Evento.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Ppdb.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/phluzern/PHLU.Sites.Content.git"
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/miegli/Neoslive.Hybridsearch.git"
+    "scripts": {
+        "post-update-cmd": [
+            "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+            "FLOW_CONTEXT=Development ./flow flow:cache:flush"
+        ],
+        "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
+        "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
+        "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
     }
-  ],
-  "config": {
-    "vendor-dir": "Packages/Libraries",
-    "bin-dir": "bin"
-  },
-  "require": {
-    "typo3/neos": "2.3.*",
-    "typo3/neos-nodetypes": "*",
-    "typo3/neos-kickstarter": "*",
-    "typo3/neos-seo": "~1.0",
-    "typo3/setup": "~2.0",
-    "flowpack/neos-frontendlogin": "~2.0",
-    "neos/redirecthandler-neosadapter": "~1.0",
-    "neos/redirecthandler-databasestorage": "~1.0",
-    "phlu/corporate": "dev-master",
-    "phlu/neos-nodetypes": "dev-master",
-    "phlu/sites-content": "dev-master",
-    "phlu/evento": "dev-master",
-    "phlu/qmpilot": "dev-master",
-    "phlu/neos-models": "dev-master",
-    "phlu/interfaces": "dev-master",
-    "phlu/ppdb": "dev-master",
-    "neoslive/hybridsearch": "dev-master",
-    "flownative/aws-s3": "1.*",
-    "ktamas77/firebase-php": "^2.2",
-    "google/apiclient": "^2.0"
-  },
-  "require-dev": {
-    "typo3/buildessentials": "3.2.x-dev",
-    "mikey179/vfsstream": "~1.6",
-    "phpunit/phpunit": "~4.8 || ~5.2.0",
-    "symfony/css-selector": "~2.0",
-    "flowpack/behat": "dev-master"
-  },
-  "replace": {
-    "typo3/neos-base-distribution": "self.version"
-  },
-  "suggest": {
-    "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
-  },
-  "scripts": {
-    "post-update-cmd": ["TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall","FLOW_CONTEXT=Development ./flow flow:cache:flush"],
-    "post-install-cmd": "TYPO3\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
-    "post-package-update": "TYPO3\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
-    "post-package-install": "TYPO3\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
-  }
 }
