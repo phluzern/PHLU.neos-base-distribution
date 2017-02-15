@@ -5,6 +5,7 @@
 /Build/Resources
 /Configuration/
 !/Configuration/Routes.yaml
+!/Configuration/Policy.yaml
 /Data/
 /Packages/
 /Web/
