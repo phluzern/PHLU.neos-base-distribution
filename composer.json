@@ -58,11 +58,11 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/neos": "~3.0.0",
-        "neos/nodetypes": "~3.0.0",
-        "neos/site-kickstarter": "~3.0.0",
+        "neos/neos": "3.0.*",
+        "neos/nodetypes": "3.0.*",
+        "neos/site-kickstarter": "3.0.*",
         "neos/seo": "dev-master",
-        "neos/setup": "dev-master",
+        "neos/setup": "~4.0",
         "flowpack/neos-frontendlogin": "dev-master",
         "neos/redirecthandler-neosadapter": "dev-master",
         "neos/redirecthandler-databasestorage": "dev-master",
