@@ -8,9 +8,6 @@ privilegeTargets:
     'Phlu.Corporate:Project':
       matcher: 'method(Phlu\Corporate\Controller\ProjectController->(view|viewPortrait)Action())'
 
-    'Phlu.Corporate:Proxy':
-      matcher: 'method(Phlu\Corporate\Controller\ProxyController->(get)Action())'
-
   'Neos\Flow\Security\Authorization\Privilege\Entity\Doctrine\EntityPrivilege':
 
     'Phlu.Neos.Models.RestrictableEntity.AssetCollections':
@@ -28,9 +25,6 @@ roles:
         privilegeTarget: 'Phlu.Corporate:Project'
         permission: GRANT
 
-      -
-        privilegeTarget: 'Phlu.Corporate:Proxy'
-        permission: GRANT
 
   'Neos.Neos:AbstractEditor':
     privileges:
