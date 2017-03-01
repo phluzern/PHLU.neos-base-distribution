@@ -25,6 +25,7 @@ roles:
         privilegeTarget: 'Phlu.Corporate:Project'
         permission: GRANT
 
+
   'Neos.Neos:AbstractEditor':
     privileges:
       -
