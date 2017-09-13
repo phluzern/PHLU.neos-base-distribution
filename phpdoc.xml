@@ -7,7 +7,7 @@
         <target>Web/docs</target>
     </transformer>
     <transformations>
-        <template name="responsive" />
+        <template name="clean" />
     </transformations>
     <files>
         <directory>Packages/*/Phlu.*</directory>
