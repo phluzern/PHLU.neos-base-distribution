@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <parser>
+        <target>data/output</target>
+    </parser>
+    <transformer>
+        <target>Web/docs</target>
+    </transformer>
+    <transformations>
+        <template name="clean" />
+    </transformations>
+    <files>
+        <directory>Packages/*/Phlu.*</directory>
+        <ignore>vendor/*</ignore>
+    </files>
+</phpdoc>
