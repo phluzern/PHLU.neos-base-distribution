@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <phpdoc>
     <parser>
-        <target>data/output</target>
+        <target>Data/phpDocumentor</target>
     </parser>
     <transformer>
         <target>Web/docs</target>

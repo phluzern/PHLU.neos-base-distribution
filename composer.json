@@ -14,7 +14,7 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/phluzern/Phlu.Docs.git"
+            "url": "https://github.com/phluzern/Phlu.Documentation.git"
         },
         {
             "type": "git",
@@ -70,6 +70,7 @@
         "flowpack/neos-frontendlogin": "dev-master",
         "neos/redirecthandler-neosadapter": "dev-master",
         "neos/redirecthandler-databasestorage": "dev-master",
+        "phlu/documentation": "dev-master",
         "phlu/corporate": "dev-master",
         "phlu/neos-nodetypes": "dev-master",
         "phlu/sites-content": "dev-master",
@@ -102,7 +103,7 @@
         "post-update-cmd": [
             "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
             "cd Packages/Sites/Phlu.Corporate/ && git rev-parse --short HEAD > ../../../Packages/Sites/Phlu.Corporate/Resources/Private/version.txt && cd ../../../",
-            "php phpDocumentor.phar",
+            "./flow documentation:generate",
             "FLOW_CONTEXT=Development ./flow flow:cache:flush"
         ],
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
