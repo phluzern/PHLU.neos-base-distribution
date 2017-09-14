@@ -102,6 +102,7 @@
         "post-update-cmd": [
             "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
             "cd Packages/Sites/Phlu.Corporate/ && git rev-parse --short HEAD > Packages/Sites/Phlu.Corporate/Resources/Private/version.txt",
+            "php phpDocumentor.phar",
             "FLOW_CONTEXT=Development ./flow flow:cache:flush"
         ],
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
