@@ -79,6 +79,7 @@
         "phlu/interfaces": "dev-master",
         "phlu/proxy": "dev-master",
         "phlu/ppdb": "dev-master",
+        "phlu/documentation": "dev-master",
         "neoslive/hybridsearch": "dev-master",
         "flownative/aws-s3": "dev-master",
         "ktamas77/firebase-php": "dev-master",
