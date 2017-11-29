@@ -70,7 +70,7 @@
         "flowpack/neos-frontendlogin": "dev-master",
         "neos/redirecthandler-neosadapter": "dev-master",
         "neos/redirecthandler-databasestorage": "dev-master",
-        "phlu/corporate": "development",
+        "phlu/corporate": "dev-development",
         "phlu/neos-nodetypes": "dev-master",
         "phlu/sites-content": "dev-master",
         "phlu/evento": "dev-master",
