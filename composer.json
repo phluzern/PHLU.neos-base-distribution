@@ -62,9 +62,9 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/neos": "3.0.*",
-        "neos/nodetypes": "3.0.*",
-        "neos/site-kickstarter": "3.0.*",
+        "neos/neos": "3.2.*",
+        "neos/nodetypes": "3.2.*",
+        "neos/site-kickstarter": "3.2.*",
         "neos/seo": "dev-master",
         "neos/setup": "~4.0",
         "flowpack/neos-frontendlogin": "dev-master",
