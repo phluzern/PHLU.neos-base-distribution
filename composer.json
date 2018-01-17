@@ -54,10 +54,6 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/phluzern/Phlu.App.git"
-        },
-        {
-            "type": "git",
             "url": "https://github.com/miegli/Neoslive.Hybridsearch.git"
         }
     ],
@@ -84,7 +80,6 @@
         "phlu/proxy": "dev-master",
         "phlu/ppdb": "dev-master",
         "phlu/documentation": "dev-master",
-        "phlu/app": "dev-master",
         "neoslive/hybridsearch": "dev-master",
         "flownative/aws-s3": "dev-master",
         "ktamas77/firebase-php": "dev-master",
