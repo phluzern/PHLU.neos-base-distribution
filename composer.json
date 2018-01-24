@@ -62,14 +62,14 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/neos": "3.2.*",
-        "neos/nodetypes": "3.2.*",
-        "neos/site-kickstarter": "3.2.*",
-        "neos/seo": "dev-master",
+        "neos/neos": "3.2.4",
+        "neos/nodetypes": "3.2.4",
+        "neos/site-kickstarter": "3.2.4",
+        "neos/seo": "~2.0",
         "neos/setup": "~4.0",
-        "flowpack/neos-frontendlogin": "dev-master",
-        "neos/redirecthandler-neosadapter": "dev-master",
-        "neos/redirecthandler-databasestorage": "dev-master",
+        "flowpack/neos-frontendlogin": "~3.0",
+        "neos/redirecthandler-neosadapter": "~2.0",
+        "neos/redirecthandler-databasestorage": "~2.0",
         "phlu/corporate": "dev-master",
         "phlu/neos-nodetypes": "dev-master",
         "phlu/sites-content": "dev-master",
@@ -89,9 +89,9 @@
     "require-dev": {
         "neos/buildessentials": "~4.0.0",
         "mikey179/vfsstream": "~1.6",
-        "phpunit/phpunit": "~4.8 || ~5.2.0",
+        "phpunit/phpunit": "~6.0.0",
         "symfony/css-selector": "~2.0",
-        "neos/behat": "~3.0.0"
+        "neos/behat": "dev-master"
     },
     "replace": {
         "typo3/neos-base-distribution": "self.version"
@@ -104,7 +104,8 @@
             "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
             "cd Packages/Sites/Phlu.Corporate/ && git rev-parse --short HEAD > ../../../Packages/Sites/Phlu.Corporate/Resources/Private/version.txt && cd ../../../",
             "php phpDocumentor.phar",
-            "FLOW_CONTEXT=Development ./flow flow:cache:flush"
+            "FLOW_CONTEXT=Development ./flow flow:cache:flush",
+            "FLOW_CONTEXT=Production ./flow flow:cache:flush"
         ],
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
