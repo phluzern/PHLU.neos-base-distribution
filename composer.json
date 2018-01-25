@@ -91,7 +91,8 @@
         "mikey179/vfsstream": "~1.6",
         "phpunit/phpunit": "~6.0.0",
         "symfony/css-selector": "~2.0",
-        "neos/behat": "dev-master"
+        "neos/behat": "dev-master",
+        "php": "^7.0"
     },
     "replace": {
         "typo3/neos-base-distribution": "self.version"
