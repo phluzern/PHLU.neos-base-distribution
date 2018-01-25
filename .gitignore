@@ -6,6 +6,7 @@
 /Configuration/
 !/Configuration/Routes.yaml
 !/Configuration/Policy.yaml
+!Configuration/Settings.yaml.example
 /Data/
 /Packages/
 /Web/
