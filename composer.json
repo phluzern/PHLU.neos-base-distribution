@@ -65,7 +65,7 @@
         "neos/neos": "3.2.4",
         "neos/nodetypes": "3.2.4",
         "neos/site-kickstarter": "3.2.4",
-        "neos/seo": "~2.0",
+        "neos/seo": "dev-master#c024cb90f07cb1564bf5bf737665bf1400354f06",
         "neos/setup": "~4.0",
         "flowpack/neos-frontendlogin": "~3.0",
         "neos/redirecthandler-neosadapter": "~2.0",
