@@ -10,6 +10,19 @@
 ##
 # Neos Neos subroutes
 
+#
+# Phlu corporate routes
+#
+#
+
+-
+  name: 'SubDomain'
+  uriPattern: '{node}'
+  routeParts:
+    'node':
+      handler:     'Phlu\Corporate\Routing\DomainRoutePartHandler'
+
+
 -
   name: 'Neos Neos'
   uriPattern: '<NeosNeosSubroutes>'
@@ -18,7 +31,6 @@
       package: 'Neos.Neos'
       variables:
         'defaultUriSuffix': '.html'
-
 
 -
   name: 'Phlu Neos'
