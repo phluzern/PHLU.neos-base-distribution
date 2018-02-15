@@ -55,6 +55,10 @@
         {
             "type": "git",
             "url": "https://github.com/miegli/Neoslive.Hybridsearch.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/phluzern/Phlu.Dashboard.git"
         }
     ],
     "config": {
@@ -71,6 +75,7 @@
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
         "phlu/corporate": "dev-development",
+        "phlu/dashboard": "dev-development",
         "phlu/neos-nodetypes": "dev-master",
         "phlu/sites-content": "dev-master",
         "phlu/evento": "dev-master",

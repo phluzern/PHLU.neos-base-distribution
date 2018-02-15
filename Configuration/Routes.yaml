@@ -29,12 +29,3 @@
       variables:
         'defaultUriSuffix': '.html'
 
-
-
--
-  name: 'Phlu Neos'
-  uriPattern: '<PhluProxySubroutes>'
-  subRoutes:
-    'PhluProxySubroutes':
-      package: 'Phlu.Proxy'
-
